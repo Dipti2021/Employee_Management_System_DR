@@ -15,27 +15,33 @@ My challenge was to architect and build a solution for managing a company's empl
 * [Credits](#credits)
 
  ## Introduction 
- Employee-Management-System is a __C__ ontent __M__ anagement __S__ ystem that stores the user's information in MySQL. This application is used for managing a company's employee data using Node.js, inquirer, and CRUD operations.
+ Employee-Management-System is a __C__ ontent __M__ anagement __S__ ystem that stores the user's information in MySQL. This application is used for managing a company's employee data using Node.js, inquirer, and CRUD operations. Along with it, being a complete back end project, I added ascii art to create an introductort logo and used require module to present the output in a _Tabular form_.
 
 
  ## Screenshot of the App
  
- __Landing Page__
- ![image2](public/assets/LandingPage.png)
+ __Here are some screenshots taken which I got while running different functions of the code__
+ ![image1](Assets/pic1.png)
  
- __Notes Page__
-  ![image3](public/assets/Notespage.png)
+ 
+  ![image2](Assets/pic2.png)
   
-  __API's__
-  ![image4](public/assets/api.png)
+ 
+  ![image3](Assets/pic3.png)
+  
+  
+  ![image4](Assets/pic4.png)
+  
+  
  
  ## Demo of the App
- ![image1](public/assets/teamnotes.gif)
+ A demo of the app has been uploaded as a gif
+ ![image1](assets/Employee.gif)
+ 
+ You can also view the same code as a video by clicking on [this Youtube link](https://www.youtube.com/watch?v=aktnRELpJv0)
 
  ## Deployed Application
- The following shows how I created this app and how it generates the file. I may make some chagnges to the code to make it more clean. But more or less, it is almost an exact representation of the code
-
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://notetakerdr.herokuapp.com/)
+ 
  
  Else we can also run the app from the terminal by running the command
  
