@@ -14,7 +14,7 @@ CREATE TABLE emprole (-- roles
  title  VARCHAR(100) NOT NULL, -- to hold role title
  salary  DECIMAL(10,2) NULL, -- to hold role salary     
  department_id INTEGER NOT NULL, -- to hold reference to department role belongs to
- FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE CASCADE, // to undo the foreign key
+ FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE CASCADE, -- to undo the foreign key
  PRIMARY KEY (id)
 );
 
