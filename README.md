@@ -1,8 +1,8 @@
 # Employee Tracker
 ![License: Dipti](https://img.shields.io/badge/Coder-Dipti'sCode-yellow.svg)
 ![License: MIT v3](https://img.shields.io/badge/License-MIT-blue.svg)
-![DB:SQL](https://img.shields.io/DB/MySql-green.svg)
-![Art:logo](https://img.shields.io/Logo/ASCII-art-pink.svg)
+![Licence:SQL](https://img.shields.io/badge/DB-MySql-green.svg)
+![Licence:logo](https://img.shields.io/badge/Logo-ASCIIart-pink.svg)
 
 My challenge was to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 ## Table of Contents
