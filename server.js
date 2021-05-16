@@ -301,7 +301,7 @@ async function del_role() {
 async function del_emp() {
     const roleDetails = await inquirer.prompt(questions.removeEmployee)
     connection.query("DELETE FROM employee WHERE ?", {
-            first_name: roleDetails.employeeRemoval
+            id: roleDetails.roleid
             
         },
         function (err) {
@@ -315,11 +315,7 @@ async function del_emp() {
 } 
 
 
-// TRIED DOING IT, WILL  UPDATE IT MORE
-// ERROR THAT I GET -  sqlMessage: 'Cannot delete or update a parent row: a foreign key constraint fails (`employeedb`.`emprole`, CONSTRAINT `emprole_ibfk_1` FOREIGN KEY (`department_id`) REFERENCES `department` (`id`))',
- // sqlState: '23000',
- // index: 0,
-  //sql: "DELETE FROM department WHERE `dept_name` = 'FINANCE'"
+//updated the function
 
 async function del_dept() {
     const roleDetails = await inquirer.prompt(questions.removedept)
