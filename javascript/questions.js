@@ -85,21 +85,22 @@ module.exports = {
         type: "list",
         message: "Enter the employee's role that you want to delete",
         name: "roleRemoval",
-        choices: ["Director", "Analyst", "Programmer"]
+       choices: ["President", "CEO", "CFO", "Vice President","Director of IT", "Director of R&D","Director of Marketing", "Programming Manager", "R&D Researcher","Marketing Consultant",
+        "Computer Programmer","Sales Associate","Secretary"]
     },
    
     removeEmployee: {
         type: "list",
-        message: "Enter the employee's first name",
-        name: "employeeRemoval",
-        choices: ["Juhi", "Ranveer", "Salman"]
+         message: "Enter the employee's role id who you want to delete",
+        name: "roleid",
+        choices:["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22"] 
     },
 
     removedept: {
         type: "list",
         message: "Enter the department name you want to delete?",
         name: "deptRemoval",
-        choices: ["IT", "FINANCE", "R&D"]
+        choices: ["IT", "FINANCE", "R&D","MANAGEMENT","MARKETING"]
     },
     
 }

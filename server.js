@@ -297,16 +297,20 @@ async function del_role() {
 
 
 
-// Updated Delete employee function
+// TRIED DOING IT, WILL UPDATE IT MORE
 async function del_emp() {
     const roleDetails = await inquirer.prompt(questions.removeEmployee)
     connection.query("DELETE FROM employee WHERE ?", {
+<<<<<<< HEAD
             id: roleDetails.roleid
+=======
+            title: roleDetails.employeeRemoval
+>>>>>>> parent of db4064a (Updated Delete employee function)
             
         },
         function (err) {
             if (err) throw err;
-            console.log("Employee has been deleted from your team!");
+            console.log("Role has been deleted from your team!");
             console.table(roleDetails);
            
             begin();
