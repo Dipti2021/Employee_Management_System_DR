@@ -15,8 +15,28 @@ My challenge was to architect and build a solution for managing a company's empl
 * [Credits](#credits)
 
  ## Introduction 
- Employee-Management-System is a __C__ ontent __M__ anagement __S__ ystem that stores the user's information in MySQL. This application is used for managing a company's employee data using Node.js, inquirer, and CRUD operations. Along with it, being a complete back end project, I added ascii art to create an introductort logo and used require module to present the output in a _Tabular form_.
+ Employee-Management-System is a __C__ ontent __M__ anagement __S__ ystem that stores the user's information in MySQL. This application is used for managing a company's employee data using Node.js, inquirer, and CRUD operations. Along with it, being a complete back end project, I added ascii art to create an introductort logo and used require module to present the output in a _Tabular form_. Also, you can run the Database in My SQL Workbench and see the same results in 2 different environments.
+ In order to run the code, a lot of __npm__ commands needs to be run and the installation are as shown 
+  ```
+npm install
+```
 
+ ```
+npm install inquirer
+```
+
+ ```
+npm install mysql
+```
+
+ ```
+npm install console.table
+```
+
+ ```
+npm install ascii-art
+
+```
 
  ## Screenshot of the App
  
@@ -40,26 +60,17 @@ My challenge was to architect and build a solution for managing a company's empl
  
  You can also view the same code as a video by clicking on [this Youtube link](https://www.youtube.com/watch?v=aktnRELpJv0)
 
- ## Deployed Application
- 
- 
- Else we can also run the app from the terminal by running the command
- 
- ```
-node server
-```
-And then search for the localhost:2020 in your browser
  
 
  
  ## Installations
-   * [The URL of the Github repo](https://github.com/Dipti2021/NotesTaker_DR)
+ Attached is the Github repo for the code
+   * [The URL of the Github repo](https://github.com/Dipti2021/Employee_Management_System_DR)
    
 
  ## Questions
 In case of any questions, contact me through any of the following methods:
  * If you want you can [open an issue](https://github.com/Dipti2021/NotesTaker_DR/issues) and let me know about it.
- * You can contact me on [my  mail id](mailto:dipti.raina@gmail.com) and discuss the problems that you might have faced or even if you want to add on something to the code.
 
 
     
