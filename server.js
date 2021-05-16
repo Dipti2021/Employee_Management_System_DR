@@ -51,44 +51,44 @@ async function begin(){
         case "Add a department to the team":
             add_dept(); 
             break;
-        case "Add a role to the team": // working
+        case "Add a role to the team":
             add_role(); 
             break;
         case "View the departments of the team":  // working
             view_dept();
             break;
-        case "View the employees of the team": //working
+        case "View the employees of the team":
             view_emp();
             break;
         
-        case "View all the roles of the team": // working
+        case "View all the roles of the team": 
             all_roles();
             break;
-        case "Update the employee's role in the team": // working
+        case "Update the employee's role in the team": 
             up_role();
             break;
-        case "Update the employee's Manager":// working
+        case "Update the employee's Manager":
             up_man();                            
             break;
-        case "View employees by their manager": //working
+        case "View employees by their manager": 
             emp_man();
             break;
-        case "View employees by their department": //working
+        case "View employees by their department": 
             emp_dept();
             break;
         case "Delete an employee":
-            del_emp(); //working questions popping eveytime
+            del_emp(); 
             break;
-        case "Delete a role": //not working
+        case "Delete a role": 
             del_role();
             break;
         case "Delete a department":
             del_dept();// create
             break;
         case "Total budget of a department":
-            view_bud();// create it
+            view_bud();
             break;
-        case "Quit":  //working
+        case "Quit":  
            connection.end();
             break;
        
@@ -175,7 +175,7 @@ all_roles=() =>{
         begin()
     });
 }
-// check again 
+
 async function emp_man () {
     connection.query("SELECT * FROM employee", async (err, employee) => {
         const {
@@ -278,7 +278,7 @@ function up_man() {
 // Deleting functions
 
 
-// TRIED DOING IT, BUT WILL TRY TO UPDATE IT MORE
+// TRIED DOING IT, WILL UPDATE IT MORE
 async function del_role() {
     const roleDetails = await inquirer.prompt(questions.removeRole)
     connection.query("DELETE FROM emprole WHERE ?", {
@@ -297,7 +297,7 @@ async function del_role() {
 
 
 
-// TRIED DOING IT, BUT WILL TRY TO UPDATE IT MORE
+// TRIED DOING IT, WILL UPDATE IT MORE
 async function del_emp() {
     const roleDetails = await inquirer.prompt(questions.removeEmployee)
     connection.query("DELETE FROM employee WHERE ?", {
@@ -315,7 +315,7 @@ async function del_emp() {
 } 
 
 
-// TRIED DOING IT, BUT WILL TRY TO UPDATE IT MORE
+// TRIED DOING IT, WILL  UPDATE IT MORE
 async function del_dept() {
     const roleDetails = await inquirer.prompt(questions.removedept)
     connection.query("DELETE FROM department WHERE ?", function (err,res) {
