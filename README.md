@@ -36,7 +36,7 @@ My challenge was to architect and build a solution for managing a company's empl
  
  ## Demo of the App
  A demo of the app has been uploaded as a gif
- ![image1](assets/Employee.gif)
+ ![image1](Assets/Employee.gif)
  
  You can also view the same code as a video by clicking on [this Youtube link](https://www.youtube.com/watch?v=aktnRELpJv0)
 
