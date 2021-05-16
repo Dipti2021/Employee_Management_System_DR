@@ -83,16 +83,16 @@ module.exports = {
     ],*/
     removeRole: {
         type: "list",
-        message: "Enter the employee's role? that you want to delete",
+        message: "Enter the employee's role that you want to delete",
         name: "roleRemoval",
         choices: ["Director", "Analyst", "Programmer"]
     },
    
     removeEmployee: {
         type: "list",
-        message: "Enter the employee's role?",
+        message: "Enter the employee's first name",
         name: "employeeRemoval",
-        choices: ["Director", "Analyst", "Programmer"]
+        choices: ["Juhi", "Ranveer", "Salman"]
     },
 
     removedept: {
