@@ -3,6 +3,8 @@ const questions = require('./javascript/questions.js')
 const table = require("console.table");
 const logo = require("asciiart-logo");
 const mysql = require('mysql');
+// added a comment
+
 
 //server connection
 const connection = mysql.createConnection({
